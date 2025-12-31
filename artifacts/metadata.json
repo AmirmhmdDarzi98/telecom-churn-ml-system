@@ -1,0 +1,7 @@
+{
+  "threshold": 0.34,
+  "cost_fn": 100,
+  "cost_fp": 10,
+  "target": "Churn",
+  "notes": "LogReg + leakage-safe preprocessing + cost-sensitive threshold"
+}
