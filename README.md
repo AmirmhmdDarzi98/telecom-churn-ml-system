@@ -1,40 +1,24 @@
-📞 Telecom Churn Prediction – ML System
-A production-style machine learning project for predicting customer churn, with a focus on business-driven decision making, cost-sensitive thresholds, and post-deployment evaluation.
+# 📞 Telecom Churn Prediction
 
-🚀 Live Demo
-🔗 Streamlit Web App:
+A **production-style machine learning system** for customer churn prediction with  
+**cost-sensitive decision making** and **post-deployment monitoring**.
+
+🔗 **Live Demo:**  
 https://telecom-churn-ml-system-dev.streamlit.app/Single_Prediction
 
-🎯 Problem
-Predicting churn is not enough.
-The real business question is:
-Which customers should be contacted to prevent churn, given asymmetric costs?
-Missing a churned customer is expensive
-Contacting a loyal customer has a smaller cost
-Decisions must be optimized based on business impact, not accuracy
+## Highlights
+- Leakage-safe preprocessing
+- Cost-aware threshold optimization
+- Evaluation on future (hold-out) data
+- Multi-page Streamlit web app
+  - 🔮 Single customer prediction
+  - 📦 Batch scoring
+  - 📉 Drift monitoring
 
-🧠 Solution Overview
-Leakage-safe data preprocessing
-Logistic Regression baseline model
-Cost-sensitive threshold optimization
-Evaluation on unseen future data (pseudo-production)
-
-Data drift monitoring (PSI & KS-test)
-🖥️ Web Application Features
-🔮 Single Customer Prediction – churn probability + decision
-📦 Batch Scoring – upload CSV & download predictions
-📉 Drift Monitoring Dashboard
-📑 Project Report – metrics, confusion matrix, cost curves
-
-🛠️ Tech Stack:
-Python, Pandas, NumPy
-Scikit-learn
-Streamlit
-Joblib
-
-▶️ Run Locally
-pip install -r requirements.txt
-streamlit run app.py
-
-👤 Author
-Amir Mohammad Darzi
+## Tech
+- **Python**
+  - Pandas
+  - NumPy
+  - scikit-learn
+- **Streamlit**
+- **Joblib**
